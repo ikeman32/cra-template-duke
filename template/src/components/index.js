@@ -5,12 +5,6 @@ import Home from './home/Home';
 export {Home};
 
 /*
-What this does is allow you to import a list of components like so
-import {Home, comp1, comp2} from './components';
-
-Instead of 
-import Home from './components/home/Home';
-import comp1 from './components/comp1/comp1;
-etc
+These components are then imported into the Routes.js file which will handle all the app routing
 
 */
