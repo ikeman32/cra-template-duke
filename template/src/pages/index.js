@@ -1,11 +1,11 @@
 //Import your custom components here
-import Header from './header/Header';
-import StickyFooter from './footer/StickeyFooter';
+import Home from './home/Home';
+import About from './about/About'
 
 //Then export them here
 export {
-    Header,
-    StickyFooter
+    Home,
+    About
 };
 
 /*

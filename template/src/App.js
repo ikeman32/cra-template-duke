@@ -1,21 +1,22 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Routes from './components/routes/Routes';//Import routes
+import * as React from 'react';
+import MyRoutes from './components/routes/Routes';//Import routes
+import { Header, StickyFooter, sections, title } from "./components/index";
 import './App.scss';
 
 function App() {
   return (
     <div>
-      <header>
-        <nav>
-          <Link to="/">
-            Home
-          </Link>
-        </nav>
-      </header>
-      <>
-      <Routes />
-      </>
+      {/* <Header /> 
+        Edit HeaderProps.js to change the header attributes.
+        Required for navigation.
+      */}
+      <Header title={title} sections={sections}/>
+      
+      {/* <Routes /> */}
+      <MyRoutes />
+    
+      {/* <StickyFooter /> */}
+      <StickyFooter />
     </div>
   );
 }
