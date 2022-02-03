@@ -6,23 +6,33 @@ react-router-dom 6.1.1.
 
 ## How To Install
 
+requires create-react-app v5.0.0
+to force your system to use create-react-app v5 append '@5.0.0' to the create-react-app
+
 ### yarn
 
 `yarn create react-app <app-name> --template duke`
+
+force v5:
+`yarn create react-app@5.0.0 <app-name> --template duke`
 
 ### npm
 
 `npm init react-app <app-name> --template duke`
 
+force v5:
+`npm init react-app@5.0.0 <app-name> --template duke`
+
 ### npx
 
 `npx create-react-app <app-name> --template duke`
 
+force v5:
+`npx create-react-app@5.0.0 <app-name> --template duke`
+
 ### global
 
-> If create-react-app is installed globally on your computer you can use this command:
-
-`create-react -app <app-name> --template duke`
+Global installation no longer supported.
 
 ## Dependencies
 
