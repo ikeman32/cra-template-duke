@@ -6,6 +6,17 @@ react-router-dom 6.1.1.
 
 ## How To Install
 
+## Breaking changes 
+There are some issues with some of the node pmodules requiring vulnerable versions of certain modules and you may encounter a similar error as this:
+
+Compiled with problems:
+
+ERROR in ./node_modules/history/index.js
+
+and a stack trace through multiple files ending up with webpack compiling with an error.
+Right now the workaround is to run npm audit fix --force to install the breaking changes and vulnerable modules.
+
+
 requires create-react-app v5.0.0
 to force your system to use create-react-app v5 append '@5.0.0' to the create-react-app
 

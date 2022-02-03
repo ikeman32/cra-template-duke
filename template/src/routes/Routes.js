@@ -12,7 +12,7 @@ const MyRoutes = () => {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/About" component={<About />} />
+        <Route path="/About" element={<About />} />
       </Routes>
       {/* <Route path='/<pathname here>' element={<component-name />}/> */}
     </>
